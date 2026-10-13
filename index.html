@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jordi Melero — Programador</title>
+  <meta name="description" content="CV de Jordi Melero, programador junior en Barcelona. Python, JavaScript, React, Django e IA.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+  <!-- ========== BARRA SUPERIOR ========== -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="nav-name">Jordi Melero</a>
+      <div class="nav-links">
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#formacion">Formación</a>
+      </div>
+      <button class="nav-btn" onclick="window.print()">Descargar PDF</button>
+    </div>
+  </nav>
+
+  <main id="top">
+    <!-- ========== HERO ========== -->
+    <header class="hero">
+      <div class="glow" aria-hidden="true"></div>
+      <div class="avatar reveal"><img src="foto.jpg" alt="Foto de Jordi Melero" width="434" height="434"></div>
+      <p class="eyebrow reveal">Programador · Barcelona</p>
+      <h1 class="reveal">Jordi Melero.</h1>
+      <p class="tagline reveal">
+        Construyo aplicaciones web con <span class="grad">Python, JavaScript e IA</span>.
+      </p>
+      <ul class="contact reveal">
+        <!-- tel -->
+        <li><a href="mailto:jordimelerocampos@gmail.com">jordimelerocampos@gmail.com</a></li>
+        <li><a href="https://www.linkedin.com/in/jordi-melero" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li>Barcelona</li>
+      </ul>
+    </header>
+
+    <!-- ========== PERFIL ========== -->
+    <section class="section statement reveal">
+      <p>
+        Persona entusiasta y motivada, con un fuerte deseo de aprender y crecer en la programación.
+        Tras estudiar gestión administrativa y trabajar en diversos ámbitos, descubrí mi pasión por el desarrollo.
+        <span class="dim">Mentalidad proactiva y adaptable para afrontar nuevos retos con energía y compromiso.</span>
+      </p>
+    </section>
+
+    <!-- ========== HABILIDADES (BENTO) ========== -->
+    <section class="section" id="habilidades">
+      <h2 class="section-title reveal">Habilidades.</h2>
+      <div class="bento">
+        <article class="card span-2 reveal">
+          <p class="card-label">Lenguajes</p>
+          <ul class="chips">
+            <li>Python</li><li>JavaScript</li><li>Java</li><li>C#</li><li>SQL</li><li>HTML5</li><li>CSS3</li>
+          </ul>
+        </article>
+        <article class="card card-feature reveal">
+          <p class="card-label">Certificación</p>
+          <p class="big">AZ-900</p>
+          <p class="muted">Microsoft Azure Fundamentals</p>
+        </article>
+        <article class="card reveal">
+          <p class="card-label">Frameworks</p>
+          <ul class="chips">
+            <li>Django</li><li>React</li><li>Node.js</li><li>Express</li><li>Spring Boot</li><li>Bootstrap</li><li>Tailwind</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <p class="card-label">Datos e IA</p>
+          <ul class="chips">
+            <li>MySQL</li><li>PostgreSQL</li><li>MongoDB</li><li>Pandas</li><li>NumPy</li><li>Machine Learning</li>
+          </ul>
+        </article>
+        <article class="card reveal">
+          <p class="card-label">Herramientas</p>
+          <ul class="chips">
+            <li>Git</li><li>GitHub</li><li>GitLab</li><li>Scrum</li><li>Regex</li>
+          </ul>
+        </article>
+        <article class="card span-3 reveal">
+          <p class="card-label">Idiomas</p>
+          <ul class="langs">
+            <li><span class="big">C1</span><span class="muted">Castellano</span></li>
+            <li><span class="big">C1</span><span class="muted">Catalán</span></li>
+            <li><span class="big">B2</span><span class="muted">Inglés</span></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== PROYECTOS ========== -->
+    <section class="section" id="proyectos">
+      <h2 class="section-title reveal">Proyectos.</h2>
+      <div class="projects">
+        <!-- Para añadir un proyecto: copia este bloque <article> y cambia los textos -->
+        <article class="card project reveal">
+          <p class="card-label">2026 · <span class="status">En desarrollo</span></p>
+          <h3>Minuto 90</h3>
+          <p class="muted">
+            Juego web de preguntas de fútbol para competir: liga diaria con una pregunta para todos y
+            clasificación mensual, y duelos uno contra uno. El servidor controla el tiempo y calcula la
+            puntuación para que nadie pueda hacer trampas.
+          </p>
+          <ul class="chips">
+            <li>Next.js</li><li>TypeScript</li><li>Tailwind CSS</li><li>Supabase</li><li>PostgreSQL</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- ========== EXPERIENCIA ========== -->
+    <section class="section" id="experiencia">
+      <h2 class="section-title reveal">Experiencia.</h2>
+      <ol class="timeline">
+        <li class="reveal">
+          <span class="when">Ago 2025 — Hoy</span>
+          <div>
+            <h3>Sorli <span class="now">Actual</span></h3>
+            <p class="role">Atención al cliente · Supermercado</p>
+            <p class="muted">Atención al cliente, cobros y gestión de caja. Reposición, control de stock y mantenimiento de la tienda.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when">Nov 2024 — Ago 2025</span>
+          <div>
+            <h3>The Body Shop</h3>
+            <p class="role">Asesor de ventas · Cosmética y cuidado personal</p>
+            <p class="muted">Asesoramiento personalizado en la elección de productos. Cobros, apertura y cierre de caja. Reposición, inventario y presentación visual de la tienda.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when">2023 — 2024</span>
+          <div>
+            <h3>Caprabo</h3>
+            <p class="role">Atención al cliente</p>
+            <p class="muted">Atención y asesoramiento en la selección de productos. Cobros, apertura y cierre de caja, inventario y reposición.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when">2021 — 2023</span>
+          <div>
+            <h3>Decathlon</h3>
+            <p class="role">Logística</p>
+            <p class="muted">Preparación y gestión de pedidos. Coordinación de grupos de trabajo y optimización de procesos logísticos.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when">2020 — 2022</span>
+          <div>
+            <h3>Poble Espanyol, Sónar, Primavera Sound</h3>
+            <p class="role">Eventos y conciertos</p>
+            <p class="muted">Coordinación y supervisión del personal. Eficiencia y calidad en la atención al público.</p>
+          </div>
+        </li>
+        <li class="reveal">
+          <span class="when">2018 — 2020</span>
+          <div>
+            <h3>CaixaForum</h3>
+            <p class="role">Logística de exposiciones</p>
+            <p class="muted">Coordinación de la logística de exposiciones y eventos. Montaje y desmontaje de exposiciones temporales.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ========== FORMACIÓN ========== -->
+    <section class="section" id="formacion">
+      <h2 class="section-title reveal">Formación.</h2>
+      <article class="card bootcamp reveal">
+        <p class="card-label">Fundación Esplai · 2024</p>
+        <h3>Bootcamp de Programación + Inteligencia Artificial con Python</h3>
+        <ul class="ticks">
+          <li>Aplicaciones web con HTML5, CSS3, JavaScript, Bootstrap y Tailwind CSS.</li>
+          <li>Desarrollo con Node.js, React y Django.</li>
+          <li>Python para análisis y visualización de datos: NumPy, Pandas, Polars, Matplotlib y Plotly.</li>
+          <li>Bases de datos SQL (MySQL) y NoSQL (MongoDB).</li>
+          <li>Machine Learning y Deep Learning: aprendizaje supervisado y no supervisado, evaluación de modelos.</li>
+          <li>Metodologías ágiles (Scrum), GitHub y expresiones regulares.</li>
+        </ul>
+      </article>
+      <div class="edu-grid">
+        <article class="card reveal">
+          <p class="card-label">Escola Pàlcam · 2016</p>
+          <h3>Ciclo Medio de Gestión Administrativa</h3>
+        </article>
+        <article class="card reveal">
+          <p class="card-label">Centro de Estudios Roca · 2015</p>
+          <h3>Educación Secundaria Obligatoria</h3>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Hablemos. <a href="mailto:jordimelerocampos@gmail.com">jordimelerocampos@gmail.com</a></p>
+  </footer>
+
+  <script>
+    // Aparición suave de los bloques al hacer scroll
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el) => io.observe(el));
+  </script>
+</body>
+</html>
