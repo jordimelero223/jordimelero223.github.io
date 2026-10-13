@@ -322,6 +322,7 @@ main { max-width: var(--max); margin: 0 auto; padding: 0 22px; }
 }
 .timeline .role { font-size: 15px; color: var(--text); margin: 2px 0 8px; }
 .timeline .muted { font-size: 15px; max-width: 640px; }
+.timeline .muted strong { color: var(--text); font-weight: 600; }
 
 .now {
   font-size: 11px;
